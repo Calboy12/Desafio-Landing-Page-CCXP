@@ -2,7 +2,6 @@
     margin: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 /* Cabeçalho */
 header {
     background-color: #FFD900;
@@ -10,37 +9,30 @@ header {
     padding-left: 58px;
 }
 /* Informação */
-
 #info-chamada {
     display: flex;
     flex-direction: row;
 }
-
 #informacao {
     background-color: #514988;
     width: 850px;
     text-align: center;
 }
-
 #informacao h1 {
     color: #F3C61F;
     font-size: 65px;
     padding-top: 30px;
     padding-bottom: 15px;
 }
-
 #informacao h2 {
     color: #FFF;
     font-size: 28px;
     padding-bottom: 55px;
 }
-
 #informacao p {
     color: #FFF;
     font-size: 29px;
-    font-weight: 400;
-    
-
+    font-weight: 400;  
 }
 /* Countdown */
 #countdown {
@@ -49,13 +41,11 @@ header {
     padding-left: 20px;
     padding-top: 20px;
 }
-
 .timer {
     font-size: 40px;
     padding-left: 60px;
     color: #514988;
 }
-
 #count-video h2 {
     color: #E33881;
     padding-left: 55px;
@@ -63,7 +53,6 @@ header {
     text-align: center;
     margin-bottom: 20px;
 }
-
 video {
     padding-left: 30px ;
 }
@@ -75,27 +64,35 @@ video {
 }
 #info-ingresso{
     padding-top: 25px;
-    
 }
-
 #info-ingresso h3{
     color: #F3C61F ;
     font-size: 25px;
     padding-left: 75px;
 }
-
 #cards{
     display: flex;
     padding-top: 25px;
     padding-left: 75px;
     padding-bottom: 50px;
 }
-
 #cards img{
     width: 180px;
     cursor: pointer;  
 }
-
+input{   
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #514988;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-left: 100px;
+    text-align: center;
+ }
 button{
    width: 590px;
    height: 140px;
@@ -106,14 +103,21 @@ button{
    font-size: 40px;
    font-weight: 700;
    margin-top: 20px;
-   margin-left: 300px;
+   margin-left: 250px;
    cursor:pointer;
 }
-
 button:hover{
     transform:translateY(2.5);
     transition: 0.5s;
     box-shadow: 15px 10px 15px #676096;
     color: #F3C61F;
 }
+.card-highlight{
+    box-shadow: 10px 10px 10px 10px grey;
+}
+.card-selected{
+    border: 5px solid green;
+}
+
+ 
 

@@ -67,17 +67,23 @@
             AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!
         </h3>    
     <div id="cards">
-        <img src="imagens.svg/quinta.svg" alt="">
-        <img src="imagens.svg/sexta.svg" alt="">
-        <img src="imagens.svg/esgotado.svg" alt="">
-        <img src="imagens.svg/domingo.svg" alt="">  
+        <img src="imagens.svg/quinta.svg" onclick="selectCard('#quinta')" onmouseover="highlightCard('#quinta')" onmouseout="highlightCard('#quinta')" id="quinta" >
+        <img src="imagens.svg/sexta.svg" onclick="selectCard('#sexta')" onmouseover="highlightCard('#sexta')" onmouseout="highlightCard('#sexta')" id="sexta"  alt="">
+        <img src="imagens.svg/esgotado.svg" onclick="selectCard('#esgotado')" onmouseover="highlightCard('#esgotado')" onmouseout="highlightCard('#esgotado')" id="esgotado"  alt="">
+        <img src="imagens.svg/domingo.svg" onclick="selectCard('#domingo')" onmouseover="highlightCard('#domingo')" onmouseout="highlightCard('#domingo')" id="domingo"  alt="">  
         <div id="button">
-            <button> GARANTA O SEU</button>
+            <form action="https://www.ccxp.com.br/ingressos/">
+                <input type="email" placeholder="Seu e-mail" required />
+                <input type="tel" placeholder="Telefone" required />
+                <button onclick="showSelectedCards()"> GARANTA O SEU ! </button>
+            </form> 
+            
         </div>      
     </div> 
 </div>
-
-    <script src="script.js"></script>    
+    <script src="script.js"></script>  
+    <script src="main.js"></script>  
+      
 </body>
 
 </html>
